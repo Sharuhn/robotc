@@ -27,7 +27,7 @@ task main()
   motor[port4] = 0;
   motor[port5] = 0;
   wait1Msec(0250);
-	motor[port2] = 25;     //Move 5 Blocks
+  motor[port2] = 25;     //Move 5 Blocks
   motor[port3] = -25;
   motor[port4] = 25;
   motor[port5] = -25;
